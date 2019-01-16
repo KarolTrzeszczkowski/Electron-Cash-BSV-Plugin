@@ -1,0 +1,11 @@
+{
+    "display_name": "BSV Plugin",
+    "version": "1.0",
+    "description": "Plugin that makes Electron Cash compatible with BSV chain. After it's enabled you can connect to the servers of BSV network.",
+    "project_url": "https://github.com/KarolTrzeszczkowski/Electron-Cash-BSV-Plugin/",
+    "minimum_ec_version": "3.3",
+    "package_name": "bsv-plugin",
+    "available_for": [
+        "qt"
+    ]
+}
