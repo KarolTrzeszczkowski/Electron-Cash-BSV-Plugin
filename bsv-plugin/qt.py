@@ -41,6 +41,9 @@ class Plugin(BasePlugin):
         self.network.config.set_key("server_blacklist", [])
         self.network.blacklisted_servers = set(self.config.get('server_blacklist', []))
         self.network.auto_connect = True
+        self.network.config.set_key("auto_connect", True)
+        self.network.config.set_key("default_server", '')
+
         for s in self.network.recent_servers:
             self.network.recent_servers.remove(s)
         self.network.save_recent_servers()
