@@ -25,7 +25,7 @@ To install BSV Plugin and connect to the BSV server you have to:
 5. In the network dialog click "Server" tab, unmark "Sellect server automatically" and from the list below choose some sv server. They will have "sv" "satoshi.vision" etc. in their name.
 6. Rightclick on the server and click "Use as server".
 
-You should be connected to the BSV network. The green button should have the black crossroad pictogram on it. Network overview should show two branches.
+You should be connected to the BSV network. The green button should have the black crossroad pictogram on it. Network overview should show two branches - 4626ff6e3b@556767 (BCH) and 1d95671421@556767 (BSV).
 
 
 # Donations
