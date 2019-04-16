@@ -39,7 +39,7 @@ You should be connected to the BSV network. The green button should have the bla
 
 
 # Donations
-Cash Account: Karol#567890
+Cash Account: Licho#14431
 bitcoincash:qq93dq0j3uez8m995lrkx4a6n48j2fckfuwdaqeej2
 Legacy format: 121dPy31QTsxAYUyGRbwEmW2c1hyZy1Xnz
 
