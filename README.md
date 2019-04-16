@@ -1,4 +1,4 @@
-# Warning! Read all the warnings before using.
+# Warning! Don't use. It suck.
 
 # Electron Cash BSV Plugin
 The plugin overwrites checkpoints and lets you use EC to connect with the Bitcoin SV ElectrumX servers. The main advantage of using the plugin is that it's only about 100 lines of code. If you trust EC, it takes less time to review 100 lines of plugin than the whole other wallet. 
