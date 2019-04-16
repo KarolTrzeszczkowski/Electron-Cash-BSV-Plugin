@@ -49,14 +49,6 @@ class Plugin(BasePlugin):
             self.close_wallet(window.wallet)
 
     @hook
-    def update_contact(self, address, new_entry, old_entry):
-        print("update_contact", address, new_entry, old_entry)
-
-    @hook
-    def delete_contacts(self, contact_entries):
-        print("delete_contacts", contact_entries)
-
-    @hook
     def init_qt(self, qt_gui):
         """
         Hook called when a plugin is loaded (or enabled).
@@ -80,8 +72,6 @@ class Plugin(BasePlugin):
         bitcoin.NetworkConstants.VERIFICATION_BLOCK_MERKLE_ROOT = "3848ff6c001ebf78ec1a798c2002f154ace4ba6c0f0a58ccb22f66934eda7143"
         bitcoin.NetworkConstants.VERIFICATION_BLOCK_HEIGHT = 540250
         self.network.checkpoint_height = 540250
-        self.network.config.set_key("server_blacklist", [])
-        self.network.blacklisted_servers = set(self.config.get('server_blacklist', []))
         # print(self.network.blockchain())
         self.wallet_windows[wallet_name] = window
 
